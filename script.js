@@ -32,4 +32,4 @@ app.directive('bNgLightBox', function ($log, $window) {
             };
         }
     }
-});
+}); 
