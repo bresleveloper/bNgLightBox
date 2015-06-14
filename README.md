@@ -10,4 +10,4 @@ your code will look like this
     </b-ng-light-box>  
 see the <a href="http://plnkr.co/edit/wILek74reuOXD00q8gsM?p=preview">plunker</a>
 
-it include a simple directive js, a simple ng-template script, and 4 lines of css, availabe in either 3 seperate files or in 1 html file here
+it include a simple directive js, a simple ng-template script, and 4 lines of css, availabe in either 3 seperate files or in 1 html file up here
