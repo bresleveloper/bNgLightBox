@@ -12,7 +12,7 @@
             <button type="button" ng-class="buttonClass" ng-click="ngLightBoxFunction(funcOptions.open)">{{ valOpen }}</button>
         </div>        
         <div class="box-content-wrapper" ng-show="openContent" >
-            <div class="box-content"  >
+            <div class="box-content"  ng-if="openContent">
                 <div class="box-buttons" ng-if="buttons">
                     <button type="button" ng-class="buttonClass" ng-click="ngLightBoxFunction(funcOptions.save)">{{ valSave }}</button>
                     <button type="button" ng-class="buttonClass" ng-click="ngLightBoxFunction(funcOptions.close)">{{ valClose }}</button>
@@ -21,7 +21,7 @@
                     <span ng-click="ngLightBoxFunction(funcOptions.close,$event)">x</span>
                 </div>
 
-                <div class="box-content-transclude"  ng-transclude >
+                <div class="box-content-transclude"  ng-transclude  >
                 </div>
             </div>
         </div>
