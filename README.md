@@ -19,6 +19,6 @@ for no configuration your code will look like this
       angular or html code....
     </b-ng-light-box>  
     
-see the <a href="http://plnkr.co/edit/AhLzw9fmBwFESNmrpC1l?p=preview">plunker</a>
+see the <a target="_blank" href="http://plnkr.co/edit/AhLzw9fmBwFESNmrpC1l?p=preview">plunker</a>
 
 i included a js file with the directive with all the html and css hardcoded for simple copy-pase, and an html file for the template, css and js seperated
